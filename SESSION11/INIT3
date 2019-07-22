@@ -1,0 +1,34 @@
+Computer={
+    "HP": 20,
+    "DELL": 50,
+    "MACBOOK": 12,
+    "ASUS": 30,
+}
+print(Computer)
+# print("Number of Macbooks:", Computer["MACBOOK"])
+# while True:
+#     i=input("Your label? ")
+#     if i == "HP":
+#         print("Number of HP(s):", Computer["HP"])
+#     elif i =="DELL":
+#         print("Number of DELL(s):", Computer["DELL"])
+#     elif i =="MACBOOK":
+#         print("Number of MACBOOK(s):", Computer["MACBOOK"])
+#     elif i =="ASUS":
+#         print("Number of ASUS(s):", Computer["ASUS"])
+#         break
+
+# Computer["TOSHIBA"]=10
+# print(Computer)
+
+# h= input("Your icon? ")
+# d= int(input("Your n of com(s)? "))
+# Computer[h]=d
+# print(Computer)
+    
+
+# Computer_total=Computer["MACBOOK"]+Computer["DELL"]+Computer["ASUS"]+Computer["HP"]
+# print(Computer_total)
+
+for v in Computer.values():
+   
