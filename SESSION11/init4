@@ -14,11 +14,11 @@ print(Price)
 # print(don_hang)
 a=input("Enter your label?")
 
-b=input("Your number?")
+b=int(input("Your number?"))
 
 
 c=Price[a]
 print(c)
 
-# d=c*b
-# print(d)
+d=c*b
+print(d)
