@@ -1,0 +1,24 @@
+Price={
+"HP": 600,
+"DELL": 650,
+"MACBOOK": 12000,
+"ASUS": 400,
+"ACER": 350,
+"TOSHIBA": 600,
+"FUJITSU": 900,
+"ALIENWARE": 1000,
+}
+print(Price)
+# don_hang=Price["ASUS"]*5
+
+# print(don_hang)
+a=input("Enter your label?")
+
+b=input("Your number?")
+
+
+c=Price[a]
+print(c)
+
+# d=c*b
+# print(d)
