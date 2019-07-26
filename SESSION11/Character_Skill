@@ -1,0 +1,54 @@
+Player={
+"Name": "Light",
+"Strength": 8,
+"Defense": 10,
+"HP": 100,
+"Backpack": "Shield, Bread Loaf",
+"Level": 3,
+}
+Skills = []
+Skill_1={
+"Name": "Tackle",
+"Minimum level": 1,
+"Damage": 5,
+"Hit rate": 0.3,
+}
+Skill_2={
+"Name": "Quick attack",
+"Minimum level": 2,
+"Damage": 3,
+"Hit rate": 0.5,
+}
+Skill_3={
+"Name": "Strong Kick",
+"Minimum level": 4,
+"Damage": 9,
+"Hit rate": 0.2,
+}
+Skills.append(Skill_1)
+Skills.append(Skill_2)
+Skills.append(Skill_3)
+print(Skills)
+
+print("Which one do you choose? ")
+while True:
+    a=input(" Skill 1, Skill 2, Skill 3 ? ")
+    b=int(Player["Level"])
+    if a=="1":
+        if b>=Skills[0]["Minimum level"]:
+            print(Skill_1["Damage"]," dam!")
+            break
+        else:
+            print("Unavailable!")
+    elif a=="2":
+        if b>=Skills[1]["Minimum level"]:
+            print(Skill_2["Damage"]," dam!")
+            break
+        else:
+            print("Unavailable!")
+    elif a=="3":
+        if b>=Skills[2]["Minimum level"]:
+            print(Skill_3["Damage"]," dam!")
+            break
+        else:
+            print("Unavailable!")
